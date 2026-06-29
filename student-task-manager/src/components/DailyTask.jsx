@@ -88,4 +88,4 @@ function DailyTask({ date, goBack }) {
     </div>
   );
 }
-export default DailyTask;C
+export default DailyTask;
