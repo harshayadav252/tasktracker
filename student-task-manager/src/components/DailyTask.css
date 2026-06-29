@@ -1,0 +1,76 @@
+.daily{
+text-align:center;
+padding:40px;
+}
+ul{
+list-style:none;
+padding:0;
+}
+li{
+width:300px;
+margin:10px auto;
+padding:10px;
+background:white;
+border:1px solid black;
+display:flex;
+justify-content:e-between;
+align-items:center;
+}  
+.taskBox {
+  background: white;
+  width: 260px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}  
+.taskRow {
+  background: white;
+  width: 260px;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.taskCard{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.taskLeft{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+}
+
+.checkBox{
+    width:24px;
+    height:24px;
+    border:2px solid #3b82f6;
+    border-radius:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+    font-size:16px;
+    color:white;
+    transition:0.2s;
+}
+
+.checkBox.checked{
+    background:#2563eb;
+    border-color:#2563eb;
+}
+
+.completedTask{
+    text-decoration:line-through;
+    color:#777;
+}

@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eef2ff;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  text-align: center;
+}
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  min-width: 120px;
+  transition: 0.2s ease;
+}
+.btn:hover {
+  background: #1e40af;
+  transform: scale(1.05);
+}
+.btn-danger {
+  background: #ef4444;
+}
+.btn-danger:hover {
+  background: #dc2626;
+}
+.card {
+  background: white;
+  width: 260px;
+  padding: 14px;
+  margin: 10px;
+  border-radius: 14px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.card:hover {
+  background: #f1f5ff;
+  transform: translateY(-3px);
+}
+input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input:focus {
+  border-color: #2563eb;
+}
